@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+.container{
+    width: 90%;
+     margin: 0 auto;
+} 
+/* nav content */
+.nav-item{
+    padding: 0px 40px;
+}
+.nav-link{
+    padding-left: 80%;
+}
+.logo-img{
+    height: 20px;
+    width: 10rem;
+    margin-left: 40px;
+}
+
+/*sidebar   */
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    transition: left 0.35 ease;
+
+}
+.sidebar a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+
+}
+.sidebar a:hover{
+    background-color: #575757;
+}
+.sidebar.active{
+    left: 0;
+
+}
+
+.sidebar-toggle{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* banner section */
+.banner-one{
+
+    background-image: url("image/pexels-saimon-6070046.jpg");
+    background-size: cover; 
+    background-position: center;
+    height: 37rem;
+    width: 100%;
+}
+.banner-full-two{
+    background-color: rgb(32, 25, 25);
+    display: flex;
+    background-size: cover; 
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.navbar-toggler{
+display: flex;
+justify-content: end;
+}
+.navbar-toggler{
+width: 7%;
+
+}
+
+.banner-contact{
+    background-image: url("image/pexels-atahandemir-12453089.jpg");
+    background-size: cover; 
+    background-position: center;
+    height: 40rem;
+    width: 100%;
+}
+
+.contact-info{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.contact-info .icon{
+    width: 25px;
+    margin-right: 50px;
+    font-size: 50px;
+}
+.contact-info span{
+    margin-left: 10px;
+}
+.span-con-num{
+    margin-right: 80px;
+}
+.icon{
+    margin-right: 150px;
+}
+
+
+/* contact section */
+
+
+#contact-section {
+    background: url('image/pexels-atahandemir-12453089.jpg') no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+#contact-section h1 {
+    font-size: 7rem;
+    margin-bottom: 20px;
+}
+
+#contact-section p {
+    font-size: 1.5rem;
+ 
+}
+
+#contact-section .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+#contact-section .social-icons a:hover {
+    color: #f2f2f2;
+}
+.contact-num{
+    margin-top: 5rem;
+}
